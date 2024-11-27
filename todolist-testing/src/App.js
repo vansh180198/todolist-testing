@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import AddTask from './AddTask';
-import Filter from './Filter';
-import Task from './Task';
+import AddTask from './Components/AddTask';
+import Filter from './Components/Filter';
+import Task from './Components/Task';
 
 function App() {
   const [tasks, setTasks] = useState([]);
